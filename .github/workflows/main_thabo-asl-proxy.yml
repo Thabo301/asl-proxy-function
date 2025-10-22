@@ -82,4 +82,6 @@ jobs:
           app-name: 'thabo-asl-proxy'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
+          enable-oryx-build: true 
+
           
